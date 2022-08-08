@@ -1,0 +1,35 @@
+Algoritmo "Exercícios_de_fixação"
+
+Var
+
+ A : caractere
+ B : caractere
+ C : real
+ D : real
+ Idade : inteiro
+ Codigo : inteiro
+ Genero : caractere
+ Nome : caractere
+ 
+Inicio
+
+  A <- "Computador"
+  B <- "TV"
+  C <- 2100.50
+  D <- 1830.00
+  Idade <- 21
+  Codigo <- 5291
+  Genero <- "Masculino"
+  Nome <- "Arthur Nocetti "
+  
+   escreva ("Produtos:")
+   escreval
+   escreva ("O produto " ,A," custa R$",C)
+   escreval
+   escreva ("O produto " ,B," custa R$",D)
+   escreval
+   escreva ("Código: ",codigo)
+   escreval
+   escreva ("Dados da pessoa: ",nome,genero,idade," anos")
+ 
+Fimalgoritmo
