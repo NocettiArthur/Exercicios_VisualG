@@ -1,0 +1,19 @@
+Algoritmo "Problema_operadora"
+
+Var
+
+ Minutos : inteiro
+ ValorPago : real
+
+Inicio
+
+ escreva ("Digite a quantidade de minutos: ")
+ leia (Minutos)
+ ValorPago <- 50.0
+ se Minutos > 100 então
+ ValorPago <- ValorPago + 2 * (minutos - 100)
+ Fimse
+ 
+ escreva ("Valor à pagar: R$", ValorPago:4:2)
+ 
+Fimalgoritmo
